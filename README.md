@@ -24,7 +24,7 @@ docker build -t="redis" github.com/githubato/dockerfile-redis
 docker build -t="flask-helloworld2" .
 ```
 
-######Step 4.1 - Start server/project (accessable on port 5000 on your Raspberry Pi via browser)
+######Step 4.1 - Start server/project (accessable on "Raspberry Pi":5000 via browser)
 ```
 docker-compose up -d
 ```
