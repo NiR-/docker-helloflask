@@ -19,7 +19,7 @@ echo
 docker build -t="redis" github.com/githubato/dockerfile-redis
 ```
 
-######Step 3- Build Flask for Raspberry Pi (adapted for this project)
+######Step 3 - Build Flask for Raspberry Pi (adapted for this project)
 ```
 docker build -t="flask-helloworld2" .
 ```
