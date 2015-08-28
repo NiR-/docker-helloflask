@@ -10,6 +10,7 @@ apt-get install git --yes && \
 git clone https://github.com/githubato/dockerfile-helloworld2 && \
 cd dockerfile-helloworld2 && \
 echo
+```
 
 ######Step 2 - Build Redis for Raspberry Pi 
 ```
