@@ -12,6 +12,8 @@ cd dockerfile-helloworld2 && \
 echo
 ```
 
+(All commands have to be typed within the "dockerfile-helloworld2" directory!)
+
 ######Step 2 - Build Redis for Raspberry Pi 
 ```
 docker build -t="redis" github.com/githubato/dockerfile-redis
@@ -34,5 +36,5 @@ docker-compose ps
 
 ######Step 4.3 - Stop the container
 ```
-stop
+docker-compose stop
 ```
