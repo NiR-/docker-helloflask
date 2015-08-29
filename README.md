@@ -12,7 +12,7 @@ cd dockerfile-helloworld && \
 echo
 ```
 
-(All commands have to be typed within the "dockerfile-helloworld2" directory!)
+(All commands have to be typed within the "dockerfile-helloworld" directory!)
 
 ######Step 2 - Build Redis for Raspberry Pi 
 ```
