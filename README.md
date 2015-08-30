@@ -4,6 +4,8 @@
 
 #####Port 5000
 
+*(Based on https://docs.docker.com/compose/)*
+
 ######Step 1 - Clone Git repository 
 ```
 apt-get install git --yes && \
