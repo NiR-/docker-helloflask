@@ -1,10 +1,10 @@
 helloflask:
-  image: kutsudock/rpi-python-helloflask:latest
+  image: kutsudock/rpi-helloflask
   ports:
    - "5000:5000"
   links:
    - Redis
 Redis:
-  image: kutsudock/rpi-redis:3.0.5
+  image: kutsudock/rpi-redis
   ports:
     - "6379:6379"
