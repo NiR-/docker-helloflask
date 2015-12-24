@@ -1,4 +1,4 @@
-FROM kutsudock/rpi-python:latest
+FROM kutsudock/rpi-alpine-flask
 
 WORKDIR /data/App/helloflask
 COPY app.py /data/App/helloflask/app.py
