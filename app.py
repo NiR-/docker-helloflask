@@ -1,8 +1,9 @@
 from flask import Flask
 from redis import Redis
+from os import getenv
 
 app = Flask(__name__)
-redis = Redis(host='redis', port=6379)
+redis = Redis(host=getenv('REDIS_HOST'), port=getenv('REDIS_PORT', 6379))
 
 @app.route('/')
 def hello():
